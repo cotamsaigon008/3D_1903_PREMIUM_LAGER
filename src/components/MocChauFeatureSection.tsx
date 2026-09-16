@@ -538,7 +538,7 @@ export const MocChauFeatureSection = () => {
                 </a>
                 <button
                   type="button"
-                  onClick={() => setSelectedPhoto(PHOTOS[0])}
+                  onClick={() => setSelectedPhoto(coverPhoto)}
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold text-sm transition-all cursor-pointer"
                 >
                   <span>🔍</span>
