@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/images/*", "destination": "https://pace-trail-r2-proxy.pace-trail-r2-worker.workers.dev/images/:match" }
+    { "source": "/images/:path*", "destination": "https://pace-trail-r2-proxy.pace-trail-r2-worker.workers.dev/images/:path*" }
   ],
   "buildCommand": "vite build",
   "outputDirectory": "dist"
