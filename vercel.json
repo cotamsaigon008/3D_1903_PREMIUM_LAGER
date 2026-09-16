@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/images/*", "destination": "https://pace-trail-r2-proxy.pace-trail-r2-worker.workers.dev/images/:match" }
+  ],
+  "buildCommand": "vite build",
+  "outputDirectory": "dist"
+}

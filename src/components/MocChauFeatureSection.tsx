@@ -23,7 +23,7 @@ interface Photo {
 // ========== ẢNH BÌA CHÍNH (#08) — Cả hai VDV Nam & Nu tại Trail Núi Dinh ==========
 const PHOTOS: Photo[] = [
   {
-    src: '/08.jpg',
+    src: '/images/08.jpg',
     alt: 'Martin & Tuyết — Trail Núi Dinh',
     event: 'nui-dinh',
     person: 'both',
@@ -38,7 +38,7 @@ const PHOTOS: Photo[] = [
 
   // ========== TRAIL NÚI DINH (>37km | +1,850m D+) ==========
   {
-    src: '/04.jpg',
+    src: '/images/04.jpg',
     alt: 'Martin — Chuẩn bị Trail Núi Dinh, áo VNEXPRESS MIDNIGHT tím',
     event: 'nui-dinh',
     person: 'martin',
@@ -48,7 +48,7 @@ const PHOTOS: Photo[] = [
     quote: { vi: '"Nụ cười trước 37km — đó mới là dũng cảm thật sự."', en: '"Smiling before 37km — that is true courage."' },
   },
   {
-    src: '/06.jpg',
+    src: '/images/06.jpg',
     alt: 'Martin — Trail Núi Dinh, trail vest đầy đủ, giơ gậy',
     event: 'nui-dinh',
     person: 'martin',
@@ -57,7 +57,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Martin raises both trekking poles — the ready-to-battle stance of a professional trail runner. Purple VNEXPRESS MIDNIGHT shirt, red-black trail vest, Garmin GPS watch. Body and mind ready for Nui Dinh.',
   },
   {
-    src: '/07.jpg',
+    src: '/images/07.jpg',
     alt: 'Tuyết — Trail vest xanh, Núi Dinh',
     event: 'nui-dinh',
     person: 'tuyet',
@@ -67,7 +67,7 @@ const PHOTOS: Photo[] = [
     quote: { vi: '"Phụ nữ không chỉ chạy — chúng tôi bay."', en: '"Women don\'t just run — we fly."' },
   },
   {
-    src: '/09.jpg',
+    src: '/images/09.jpg',
     alt: 'Tuyết — Trail Núi Dinh, pose vui',
     event: 'nui-dinh',
     person: 'tuyet',
@@ -76,7 +76,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Tuyet — Full of energy before the start! In 2025, Tuyet completed the 21km half marathon with an impressive PR of 2:14, then took on Nui Dinh Trail.',
   },
   {
-    src: '/10.jpg',
+    src: '/images/10.jpg',
     alt: 'Martin — Rừng sương mù Trail Núi Dinh',
     event: 'nui-dinh',
     person: 'martin',
@@ -86,7 +86,7 @@ const PHOTOS: Photo[] = [
     quote: { vi: '"Sương mù không che khuất đích đến — nó chỉ làm hành trình thêm huyền ảo."', en: '"Mist doesn\'t hide the finish line — it just makes the journey more magical."' },
   },
   {
-    src: '/11.jpg',
+    src: '/images/11.jpg',
     alt: 'Martin — Rừng Núi Dinh, gậy trekking',
     event: 'nui-dinh',
     person: 'martin',
@@ -95,7 +95,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Steadying himself in Nui Dinh\'s ancient forest with trekking poles, Martin controls his breathing before the next steep climb. Proper uphill technique is the key to ultra trail.',
   },
   {
-    src: '/15.jpg',
+    src: '/images/15.jpg',
     alt: 'Tuyết — Trekking Trail Núi Dinh, đứng trên đá',
     event: 'nui-dinh',
     person: 'tuyet',
@@ -104,7 +104,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Tuyet standing confidently on a large boulder in Nui Dinh forest. Light green trekking shirt, carbon poles in hand — she conquered the toughest rocky sections of this trail.',
   },
   {
-    src: '/16.jpg',
+    src: '/images/16.jpg',
     alt: 'Martin — Trail Núi Dinh, đứng trên đá thumbs up',
     event: 'nui-dinh',
     person: 'martin',
@@ -114,7 +114,7 @@ const PHOTOS: Photo[] = [
     quote: { vi: '"Mỗi tảng đá là một thử thách nhỏ. Vượt qua đủ thách thức nhỏ — bạn sẽ hoàn thành mọi thứ lớn."', en: '"Every boulder is a small challenge. Conquer enough small challenges — you finish everything big."' },
   },
   {
-    src: '/17.jpg',
+    src: '/images/17.jpg',
     alt: 'Tuyết — Đứng trên đá lớn giữa rừng Núi Dinh',
     event: 'nui-dinh',
     person: 'tuyet',
@@ -123,7 +123,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'A powerful, serene moment amid Nui Dinh\'s nature. Tuyet stands on a massive granite boulder, gazing forward — the finish line still ahead, but determination already burning.',
   },
   {
-    src: '/18.jpg',
+    src: '/images/18.jpg',
     alt: 'Tuyết — Trail Núi Dinh, đứng trên đá hướng rừng',
     event: 'nui-dinh',
     person: 'tuyet',
@@ -133,7 +133,7 @@ const PHOTOS: Photo[] = [
   },
   // ========== MARATHON HUẾ — VnExpress Marathon Hue ==========
   {
-    src: '/05.jpg',
+    src: '/images/05.jpg',
     alt: 'Tuyết — Marathon Huế, huy chương & Kỳ Đài Cố Đô Huế',
     event: 'marathon-hue',
     person: 'tuyet',
@@ -143,7 +143,7 @@ const PHOTOS: Photo[] = [
     quote: { vi: '"Đích đến không phải là vạch finish — đích đến là khoảnh khắc bạn biết mình đã làm được."', en: '"The finish line isn\'t just a line — it\'s the moment you know you did it."' },
   },
   {
-    src: '/TuyetNGUYEN.jpg',
+    src: '/images/TuyetNGUYEN.jpg',
     alt: 'Tuyết — Marathon Huế, huy chương tại Kỳ Đài Cố Đô',
     event: 'marathon-hue',
     person: 'tuyet',
@@ -152,7 +152,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'VnExpress Marathon Hue — where a thousand years of history meets modern sport. Tuyet with 21km medal, VnExpress purple jersey and rainbow polarized glasses. PR 2:14 — an unforgettable number!',
   },
   {
-    src: '/01.jpg',
+    src: '/images/01.jpg',
     alt: 'Martin — Marathon Huế, chạy đường phố ban ngày BIB 0328',
     event: 'marathon-hue',
     person: 'martin',
@@ -164,7 +164,7 @@ const PHOTOS: Photo[] = [
 
   // ========== MARATHON MIDNIGHT HCMC — VnExpress Midnight 2026 ==========
   {
-    src: '/12.jpg',
+    src: '/images/12.jpg',
     alt: 'Martin & Tuyết — Trước xuất phát Marathon Midnight',
     event: 'midnight',
     person: 'both',
@@ -174,7 +174,7 @@ const PHOTOS: Photo[] = [
     quote: { vi: '"Chạy đêm không phải là thiếu sáng — đó là tìm ánh sáng từ bên trong."', en: '"Running at night isn\'t about darkness — it\'s about finding the light within."' },
   },
   {
-    src: '/02.jpg',
+    src: '/images/02.jpg',
     alt: 'Tuyết — Chạy đêm Midnight Marathon HCMC, giơ ✌️✌️',
     event: 'midnight',
     person: 'tuyet',
@@ -183,7 +183,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Tuyet at Midnight Marathon HCMC — both hands throwing victory V, BIB E2040, sleeveless purple singlet, unstoppable smile! Street lights glitter behind like a stage just for her.',
   },
   {
-    src: '/03.jpg',
+    src: '/images/03.jpg',
     alt: 'Martin — Marathon Huế lúc bình minh/hoàng hôn, BIB 0328',
     event: 'marathon-hue',
     person: 'martin',
@@ -193,7 +193,7 @@ const PHOTOS: Photo[] = [
     quote: { vi: '"Khi bình minh lên là khi bạn biết — bóng tối chỉ là tạm thời."', en: '"When dawn breaks, you know — darkness was only temporary."' },
   },
   {
-    src: '/hoanguy_marathon.jpg',
+    src: '/images/hoanguy_marathon.jpg',
     alt: 'Martin — VnExpress Marathon Midnight 2026, BIB #80789',
     event: 'midnight',
     person: 'martin',
@@ -203,7 +203,7 @@ const PHOTOS: Photo[] = [
     quote: { vi: '"Tập trung trong đêm tối là khi bạn thực sự mạnh mẽ nhất."', en: '"Focus in the darkness is when you\'re truly at your strongest."' },
   },
   {
-    src: '/13.jpg',
+    src: '/images/13.jpg',
     alt: 'Tuyết — Sau marathon, biển hùng vĩ',
     event: 'midnight',
     person: 'tuyet',
@@ -212,7 +212,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Post-marathon — Tuyet stands by the sea with medal on chest, female F BIB, proud stance. The waves behind her applaud the woman who never gave up.',
   },
   {
-    src: '/14.jpg',
+    src: '/images/14.jpg',
     alt: 'Martin & Tuyết — Cùng huy chương bên biển',
     event: 'midnight',
     person: 'both',
@@ -224,7 +224,7 @@ const PHOTOS: Photo[] = [
 
   // ========== VNEXPRESS MARATHON VŨNG TÀU 2026 ==========
   {
-    src: '/vungtau_01.jpg',
+    src: '/images/vungtau_01.jpg',
     alt: 'VnExpress Marathon Vũng Tàu 2026 — Hai VDV trước giờ xuất phát',
     event: 'vung-tau',
     person: 'both',
@@ -234,7 +234,7 @@ const PHOTOS: Photo[] = [
     quote: { vi: '"Vũng Tàu không chỉ là đường chạy — đó là nơi chúng tôi tìm lại chính mình."', en: '"Vung Tau is not just a race course — it\'s where we find ourselves again."' },
   },
   {
-    src: '/vungtau_02.jpg',
+    src: '/images/vungtau_02.jpg',
     alt: 'VnExpress Marathon Vũng Tàu 2026 — Đường chạy ven biển',
     event: 'vung-tau',
     person: 'both',
@@ -243,7 +243,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Vung Tau coastal course — white sand, cool breeze, thousands of runners together. Every step tells an inspiring story.',
   },
   {
-    src: '/vungtau_03.jpg',
+    src: '/images/vungtau_03.jpg',
     alt: 'VnExpress Marathon Vũng Tàu 2026 — Năng lượng trước giờ G',
     event: 'vung-tau',
     person: 'both',
@@ -252,7 +252,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Full of energy before the start! Thousands sharing one heartbeat, one ambition to conquer.',
   },
   {
-    src: '/vungtau_04.jpg',
+    src: '/images/vungtau_04.jpg',
     alt: 'VnExpress Marathon Vũng Tàu 2026 — VĐV nữ mạnh mẽ',
     event: 'vung-tau',
     person: 'tuyet',
@@ -261,7 +261,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'The determined female athlete on the Vung Tau course — confident posture, steady stride, nothing can stop her.',
   },
   {
-    src: '/vungtau_05.jpg',
+    src: '/images/vungtau_05.jpg',
     alt: 'VnExpress Marathon Vũng Tàu 2026 — VĐV nam tập trung',
     event: 'vung-tau',
     person: 'martin',
@@ -270,7 +270,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Male athlete in total focus on the race course — every step is discipline and determination.',
   },
   {
-    src: '/vungtau_06.jpg',
+    src: '/images/vungtau_06.jpg',
     alt: 'VnExpress Marathon Vũng Tàu 2026 — Cột mốc km 10',
     event: 'vung-tau',
     person: 'both',
@@ -279,7 +279,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Km 10 marker — halfway there. Hydration, energy, and joy from fellow runners. Trail running is a community journey.',
   },
   {
-    src: '/vungtau_07.jpg',
+    src: '/images/vungtau_07.jpg',
     alt: 'VnExpress Marathon Vũng Tàu 2026 — Cảnh quan thiên nhiên',
     event: 'vung-tau',
     person: 'both',
@@ -288,7 +288,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Vung Tau is not just a race course — it has breathtaking nature. Blue sea, green mountains, runners who never stop.',
   },
   {
-    src: '/vungtau_08.jpg',
+    src: '/images/vungtau_08.jpg',
     alt: 'VnExpress Marathon Vũng Tàu 2026 — Hai VDV đồng hành',
     event: 'vung-tau',
     person: 'both',
@@ -297,7 +297,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Two athletes running side by side — sharing energy, breaking limits together.',
   },
   {
-    src: '/vungtau_09.jpg',
+    src: '/images/vungtau_09.jpg',
     alt: 'VnExpress Marathon Vũng Tàu 2026 — Gương mặt rạng rỡ',
     event: 'vung-tau',
     person: 'both',
@@ -306,7 +306,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Radiant face after each conquered km — the smile is the greatest reward. Vung Tau 2026, unforgettable forever.',
   },
   {
-    src: '/vungtau_10.jpg',
+    src: '/images/vungtau_10.jpg',
     alt: 'VnExpress Marathon Vũng Tàu 2026 — Finish line',
     event: 'vung-tau',
     person: 'both',
@@ -315,7 +315,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'Crossing the finish line — nothing is happier than this moment. Vung Tau 2026, we conquered!',
   },
   {
-    src: '/vungtau_11.jpg',
+    src: '/images/vungtau_11.jpg',
     alt: 'VnExpress Marathon Vũng Tàu 2026 — Huy chương',
     event: 'vung-tau',
     person: 'both',
@@ -324,7 +324,7 @@ const PHOTOS: Photo[] = [
     captionEn: 'VnExpress Marathon Vung Tau 2026 medal — proof of perseverance, effort, and belief in oneself.',
   },
   {
-    src: '/vungtau_12.jpg',
+    src: '/images/vungtau_12.jpg',
     alt: 'VnExpress Marathon Vũng Tàu 2026 — Ký ức cùng nhau hoàn thành',
     event: 'vung-tau',
     person: 'both',
@@ -335,7 +335,7 @@ const PHOTOS: Photo[] = [
 
   // ========== TRAIL MỘC CHÂU (21km) ==========
   {
-    src: '/moc_chau_2026.jpg',
+    src: '/images/moc_chau_2026.jpg',
     alt: 'Trail Mộc Châu 2026 — Đồi chè sương mù',
     event: 'moc-chau',
     person: 'both',
@@ -359,7 +359,7 @@ const EVENT_FILTERS: { key: Event; labelVi: string; labelEn: string; icon: strin
 const ATHLETE_STATS = {
   martin: {
     name: 'Hoàng Uy (Martin)',
-    photo: '/hoanguy_marathon.jpg',
+    photo: '/images/hoanguy_marathon.jpg',
     role: { vi: 'Vận động viên Marathon & Trail', en: 'Marathon & Trail Athlete' },
     achievements: [
       { label: { vi: 'Marathon 42km', en: '42km Marathon' }, value: '4:40', icon: '🏆', color: 'text-emerald-400' },
@@ -370,7 +370,7 @@ const ATHLETE_STATS = {
   },
   tuyet: {
     name: 'Tuyết Nguyễn',
-    photo: '/05.jpg',
+    photo: '/images/05.jpg',
     role: { vi: 'Nữ vận động viên Marathon & Trail', en: 'Female Marathon & Trail Athlete' },
     achievements: [
       { label: { vi: 'Half Marathon 21km PR', en: '21km Half Marathon PR' }, value: '2:14', icon: '🥇', color: 'text-emerald-400' },
@@ -553,7 +553,7 @@ export const MocChauFeatureSection = () => {
                 {/* Image Container with precise portrait ratio & framing */}
                 <div className="relative w-full aspect-square sm:aspect-[4/5] overflow-hidden">
                   <img
-                    src="/08.jpg"
+                    src="/images/08.jpg"
                     alt="Martin & Tuyết — Trail Núi Dinh"
                     className="w-full h-full object-cover object-[center_30%] group-hover:scale-105 transition-transform duration-700 ease-out"
                     loading="eager"

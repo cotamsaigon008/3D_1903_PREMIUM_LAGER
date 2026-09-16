@@ -14,7 +14,7 @@ export const LabsSection = () => {
             <div className="relative flex-shrink-0">
               <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden border-2 border-emerald-500/60">
                 <img
-                  src="/hoanguy_profile.jpg"
+                  src="/images/hoanguy_profile.jpg"
                   alt="Hoàng Uy - Runner & Author"
                   className="w-full h-full object-cover object-top"
                   loading="lazy"
@@ -43,7 +43,7 @@ export const LabsSection = () => {
             <div className="sm:ml-auto flex-shrink-0">
               <div className="w-32 h-24 sm:w-44 sm:h-32 rounded-xl overflow-hidden border border-white/20 relative group">
                 <img
-                  src="/hoanguy_marathon.jpg"
+                  src="/images/hoanguy_marathon.jpg"
                   alt="Hoàng Uy Marathon Race"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
